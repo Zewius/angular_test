@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+.hat {
+  margin-top: 30px;
+}
+
+.selector {
+  margin: 0 auto 20px;
+}
+
+#map {
+  margin: auto;
+
+  height: 700px;
+  width: 80%;
+}
