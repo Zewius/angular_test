@@ -1,27 +1,25 @@
-# Angularstart
+# Angular project: Map with Russian cities / Карта с российскими городами
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
-
-## Development server
+## Development server / Сервер для разработки
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Для запуска сервера для разработки необходимо запустить команду `ng serve`. Сервер будет находится по адресу `http://localhost:4200/`. Приложение автоматически перезагрузится, если изменится какой-либо исходный файл.
+
+## Code scaffolding / Скаффолдинг
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+Для создания нового компонента необходимо запустить команду `ng generate component component-name`. Также можно использовать `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build / Сборка проекта
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+Для сборки проекта необходимо запустить команду `ng build`. Артефакты сборки будут находится в директории `dist/`.
+
+## Running unit tests / Запуск юнит-тестирования
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Для юнит-тестирования проекта с помощью [Karma](https://karma-runner.github.io) необходимо запустить команду `ng test`.
