@@ -6,21 +6,34 @@
 </head>
   <body>
     <div class="hat">
-      <h1>Большие города России</h1>
+      <h1>Города-миллионники России</h1>
     </div>
+
     <div class="selector">
       <mat-form-field appearance="fill">
         <mat-label>Город</mat-label>
-        <mat-select [(ngModel)]="coordinateBySelectedCity" (selectionChange)="showSelectedCity()" name="city">
-          <mat-option *ngFor="let city of cities" [value]="city.coordinate">{{city.name}}</mat-option>
+        <mat-select [(ngModel)]="selectedCity" (selectionChange)="showSelectedCity()" name="city">
+          <mat-option *ngFor="let city of cities" [value]="city">{{city.name}}</mat-option>
         </mat-select>
       </mat-form-field>
     </div>
 
-    <div id="map"
-         leaflet
-         (leafletMapReady)="onReadyMap($event)"
-         [leafletOptions]="mapOptions">
+    <div class="description">
+      <h2>Описание:</h2>
+      <h3>{{selectedCity.description}}</h3>
+
+      <h2>Численность населения:</h2>
+      <h3>{{selectedCity.populationSize}} человек</h3>
     </div>
+
+    <div class="map">
+      <h2>Город на карте</h2>
+      <div id="map"
+           leaflet
+           (leafletMapReady)="onReadyMap($event)"
+           [leafletOptions]="mapOptions">
+      </div>
+    </div>
+
   </body>
 </html>

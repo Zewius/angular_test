@@ -1,18 +1,36 @@
 body {
   text-align: center;
+  font-family: "Open Sans", serif;
 }
 
 .hat {
-  margin-top: 30px;
+  height: 60px;
+  margin-bottom: 20px;
+  background-color: #4749b2;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hat h1 {
+  line-height: 50px;
 }
 
 .selector {
-  margin: 0 auto 20px;
+  margin: 20px auto 10px;
+}
+
+.description {
+  margin: 20px auto 40px;
+  width: 70%;
 }
 
 #map {
   margin: auto;
-
   height: 700px;
-  width: 80%;
+  width: 70%;
+  border: #333333 solid 2px;
+}
+
+.map {
+  padding: 0 0 20px;
 }
