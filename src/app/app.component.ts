@@ -6,7 +6,6 @@ interface City {
   description: string;
   coordinate: [number, number];
   populationSize?: number;
-
 }
 
 @Component({
@@ -14,7 +13,6 @@ interface City {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-
 export class AppComponent implements OnInit {
   title: string = 'Города-миллионники';
 
@@ -49,7 +47,6 @@ export class AppComponent implements OnInit {
       populationSize: 1259173
     }
   ];
-
   selectedCity: City = this.cities[0];
 
   ngOnInit() {
@@ -70,10 +67,8 @@ export class AppComponent implements OnInit {
       center: this.cities[0].coordinate,
       zoom: 10,
       layers: [
-        tileLayer(
-          'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-          {minZoom: 9, attribution: 'Данные предоставляет ©OpenStreetMap'
-          })
+        tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+          {minZoom: 9, attribution: 'Данные предоставляет ©OpenStreetMap'})
       ],
     };
   }

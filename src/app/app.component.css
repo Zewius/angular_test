@@ -3,7 +3,7 @@ body {
   font-family: "Open Sans", serif;
 }
 
-.hat {
+.header {
   height: 60px;
   margin-bottom: 20px;
   background-color: #4749b2;
@@ -11,7 +11,7 @@ body {
   color: #ffffff;
 }
 
-.hat h1 {
+.header h1 {
   line-height: 50px;
 }
 
@@ -24,13 +24,13 @@ body {
   width: 70%;
 }
 
+.map {
+  padding: 0 0 20px;
+}
+
 #map {
   margin: auto;
   height: 700px;
   width: 70%;
   border: #333333 solid 2px;
-}
-
-.map {
-  padding: 0 0 20px;
 }

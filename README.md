@@ -2,15 +2,19 @@
 
 ## Development server / Сервер для разработки
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you
+change any of the source files.
 
-Для запуска сервера для разработки необходимо запустить команду `ng serve`. Сервер будет находится по адресу `http://localhost:4200/`. Приложение автоматически перезагрузится, если изменится какой-либо исходный файл.
+Для запуска сервера для разработки необходимо запустить команду `ng serve`. Сервер будет находится по
+адресу `http://localhost:4200/`. Приложение автоматически перезагрузится, если изменится какой-либо исходный файл.
 
 ## Code scaffolding / Скаффолдинг
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name` to generate a new component. You can also
+use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Для создания нового компонента необходимо запустить команду `ng generate component component-name`. Также можно использовать `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Для создания нового компонента необходимо запустить команду `ng generate component component-name`. Также можно
+использовать `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build / Сборка проекта
 
